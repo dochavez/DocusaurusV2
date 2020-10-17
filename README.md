@@ -32,7 +32,7 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 
 ![pagina principal](https://github.com/dochavez/DocusaurusV2/blob/main/Docusaurus%20pagina%20principal.jpg)
 
-*  ## Analizando la estructura del proyecto instalado de Docusaurus versión 2.📜
+*  ## Analizando la estructura del proyecto instalado.📜
 
 •	La carpeta **/blog/**: contiene los archivos de Markdown del blog, los cuales se usan para desplegar diferentes tipos de contenidos presentados por diferentes usuarios. <br>
 •	La carpeta **/docs/**: contiene los archivos de Markdown para la sección de los documentos.<br>
