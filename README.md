@@ -44,8 +44,18 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 
 *  ## Personaliza tu Sitio.🛠️
 
-Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidades. Es por eso que en el archivo denominado docusaurus.config.js modificaremos las directivas **title** y **tagline** 
+Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidades. Es por eso que en el archivo denominado **docusaurus.config.js** puedes modificar las directivas **title** y **tagline** y **favicon**.
 
+```
+module.exports = {
+  title: 'Fábrica de Chocolates',
+  tagline: 'Los expertos en el sabor y variedad',
+  url: 'https://your-docusaurus-test-site.com',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  favicon: 'img/favicon.ico',
+  
+```
 
 
 
