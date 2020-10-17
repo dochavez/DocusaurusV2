@@ -13,6 +13,11 @@ Antes de Empezar:<br>
 
 1.	Crea un directorio para descargar Docusaurus.
 2.	Ingresa a la carpeta creada desde la terminal de preferencia (Gitbash, cmd, etc.)
-3.	Ejecuta la instrucción **npx @docusaurus/init@next init [name] "[template]"**, donde [name] deberá de ser reemplazado por cualquier nombre que queramos y [template] por classic para usar la pagina por default que se cargará en el sitio web. Docusaurus tiene la disponibilidad de usar varias plantillas
+3.	Ejecuta la instrucción **npx @docusaurus/init@next init [name] "[template]"**, donde [name] deberá de ser reemplazado por cualquier nombre que queramos y [template] por classic para usar la pagina por default que se cargará en el sitio web. Docusaurus tiene la disponibilidad de usar varias plantillas.
+
+[instalacion](https://github.com/dochavez/DocusaurusV2/blob/main/instalacion.jpg)
+
+[instalacion1](https://github.com/dochavez/DocusaurusV2/blob/main/instalacion1.jpg)
+
 4.	Asumiendo que los pasos anteriores fueron ejecutados correctamente, deberas de ver una estructura siguiente:
 
