@@ -8,3 +8,5 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 
 
 *  ## Proceso de Instalación de Docusaurus versión 2.
+Antes de Empezar:
+•	Verifica que tienes instalado en tu computadora **Node.js**, **Yarn**, **Node Package Manager (NPM)**, **Gitbash** (opcional dependiendo del sistema operativo que uses) y un **editor** de código fuente (para nuestro caso utilizaremos **Visual Studio Code**)
