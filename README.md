@@ -23,29 +23,8 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 
 4.	Asumiendo que los pasos anteriores fueron ejecutados correctamente, deberas de ver una estructura siguiente:
 
-my-website
-├── blog
-│   ├── 2019-05-28-hola.md
-│   ├── 2019-05-29-hello-world.md
-│   └── 2020-05-30-welcome.md
-├── docs
-│   ├── doc1.md
-│   ├── doc2.md
-│   ├── doc3.md
-│   └── mdx.md
-├── src
-│   ├── css
-│   │   └── custom.css
-│   └── pages
-│       ├── styles.module.css
-│       └── index.js
-├── static
-│   └── img
-├── docusaurus.config.js
-├── package.json
-├── README.md
-├── sidebars.js
-└── yarn.lock
+![estructura de proyecto](https://github.com/dochavez/DocusaurusV2/blob/main/estructura%20del%20proyecto.jpg)
+
 
 *  ## Desplegando la Aplicación. 📦
 
@@ -53,6 +32,19 @@ my-website
 
 ![pagina principal](https://github.com/dochavez/DocusaurusV2/blob/main/Docusaurus%20pagina%20principal.jpg)
 
+*  ## Analizando la estructura del proyecto instalado de Docusaurus versión 2.📜
+
+•	La carpeta **/blog/**: contiene los archivos de Markdown del blog, los cuales se usan para desplegar diferentes tipos de contenidos presentados por diferentes usuarios.
+•	La carpeta **/docs/**: contiene los archivos de Markdown para la sección de los documentos.
+•	La carpeta **/src/**: contiene archivos fuentes con extension **.js** y hojas de estilos (CSS). Es importante mencionar que cualquier archivo que este dentro de la ruta **/src/pages** será convertido dentro de la página web
+•	La carpeta **/static/**: no es más que un Directorio estático. Cualquier contenido dentro de aquí se copiará en la raíz del directorio de compilación final. La cual se utilizará para desplegar nuestro sitio web en internet
+•	El archivo **/docusaurus.config.js**:  es un archivo de configuración que contiene la configuración completa del sitio. 
+•	El archivo **/package.json**: Es una aplicación de React. Puede instalar y usar cualquier paquete npm que desee en ellos.
+•	El archivo **/sidebar.js**: utilizado por la documentación para especificar el orden de los documentos en la barra lateral.
+
+*  ## Personaliza tu Sitio.🛠️
+
+Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidades. Es por eso que en el archivo denominado docusaurus.config.js modificaremos las directivas **title** y **tagline** 
 
 
 
