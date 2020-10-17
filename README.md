@@ -7,4 +7,4 @@ Documentar es una forma de dejar en evidencia lo que se hace para que otras pers
 Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nuestra documentación. Gracias a la implementación de React.js, podemos contar con soporte para blogs, paginas con diseños personalizados con estilos muy elegantes y dinámicos. 
 
 
-*  ## _Preparar el entorno de trabajo._
+*  ## Proceso de Instalación de Docusaurus versión 2._
