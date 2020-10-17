@@ -1,5 +1,5 @@
 # Docusaurus Versión 2
-Instalación y Configuracion para **Principiantes** paso a paso <br>
+## Instalación y Configuracion para **Principiantes** paso a paso <br>
 Elaborado por: **Danny Chávez** <br>
 DEVELOPER CIRCLE COMMUNITY CHALLENGE 2020
 
