@@ -1,7 +1,7 @@
 # Docusaurus Versión 2
-## Instalación y Configuracion para **Principiantes** paso a paso 🚀 <br>
+## Instalación y Configuración para **Principiantes** 🚀 <br>
 Elaborado por: **Danny Chávez** <br>
-DEVELOPER CIRCLE COMMUNITY CHALLENGE 2020
+
 
 Documentar es una forma de dejar en evidencia lo que se hace para que otras personas puedan aprender, modificar, crear, diseñar y compartir. Aunque es importante mencionar que documentar puede ser una tarea complicada. Lo cual puede desencadenar que un proyecto alcance su máximo potencial. Pero gracias a Docusaurus nuestra tarea puede verse muy simplificada.
 Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nuestra documentación. Gracias a la implementación de React.js, podemos contar con soporte para blogs, paginas con diseños personalizados con estilos muy elegantes y dinámicos. 
@@ -85,7 +85,25 @@ copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with
 ```
 dentro del archivo **docusaurus.config.js**.
 
-*  ## Sección de Documentos. 📝
+*  ## Sección de Documentos. 📖
+
+Una de las geniales caracteristicas que proporciona Docusaurus es que podemos proporcionar una gran variedad de documentos que contienen diferentes tópicos de información. Estos documentos se almacenan dentro de la carpeta denominada **docs**. Para crear documentos debemos de crear archivos que contengan la extensión **.md**. Una vez que creemos nuestro documento, Docusaurus los mostrara de manera instantanea. La estructura que debemos de seguir para crear un documento es
+```
+---
+id: AGREGA_UN_NOMBRE
+title: AGREGA_UN TITULO
+---
+# AGREGAR LA INFORMACION DESPUES DE ESTA LINEA
+```
+Donde **id** es el nombre del documento que vamos a crear, **title** es el titulo que aparecerá en nuestra sección de documentos de nuestro sitio web. 
+
+*  ## Organizando nuestros Documentos. 📚
+
+Si queremos agregar una sección para que nuestros documentos aparezcan organizados por categorias, debemos de agregar una sección especial para ellos. Por lo tanto, todos ellos se presentaran como una estructura organizada, permitiendo una fácil navegación entre ellos. Si queremos agregar nuevas secciones debemos de ubicarnos dentro del archivo **sidebar.js**
+
+![sidebar](https://github.com/dochavez/DocusaurusV2/blob/main/sidebar.jpg)
+
+![sidebar1](https://github.com/dochavez/DocusaurusV2/blob/main/sidebar1.jpg)
 
 
 
