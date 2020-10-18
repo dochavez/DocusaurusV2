@@ -61,7 +61,7 @@ Tal como mencionamos anteriormente, **Infima** soporta las Hojas de Estilos (con
 
 ![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
 
-Es importante destacar que los valores de los colores se deben de agregar en formato hexadecimal. Si quieres conocer todas las posibles combinaciones de colores que puedes aplicar, puedes visitar el siguiente sitio web <a href="https://htmlcolorcodes.com/es/" target="_blank"> www.htmlcolorcodes.com/es/ </a>.
+Es importante destacar que los valores de los colores se deben de agregar en formato hexadecimal. Si quieres conocer todas las posibles combinaciones de colores que puedes aplicar, puedes visitar el siguiente sitio web <a href="https://htmlcolorcodes.com/es/" target="_blank"> www.htmlcolorcodes.com/es/</a>.
 
 *  ## Barra de Navegación. 🗄️
 
@@ -78,6 +78,15 @@ Al igual que la barra de navegación, el componente de pie de página puede ser 
 ![Pie de Pagina](https://github.com/dochavez/DocusaurusV2/blob/main/pie%20de%20pagina.jpg)
 
 ![Footer](https://github.com/dochavez/DocusaurusV2/blob/main/footer.jpg)
+
+Finalmente, podemos decir que también podemos agregar texto relacionado a los derechos de autor al pie de la página. Esto lo podemos encontrar en la sección 
+```
+copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`, 
+```
+dentro del archivo **docusaurus.config.js**.
+
+*  ## Sección de Documentos. 📝
+
 
 
 
