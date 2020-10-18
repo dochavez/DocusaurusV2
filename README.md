@@ -34,7 +34,7 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 5.	Para ejecutar Docusaurus utilizamos el siguiente comando desde la terminal: **npm start** y nuestro proyecto se desplegará en nuestro navegador web con la dirección **http://localhost:3000** 
 
 ![pagina principal](https://github.com/dochavez/DocusaurusV2/blob/main/Docusaurus%20pagina%20principal.jpg)
-<center>###### Figura 4. Página principal.</center>
+###### Figura 4. Página principal.
 
 *  ## Analizando la estructura del proyecto instalado.📜
 
@@ -52,9 +52,11 @@ Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidade
 
 
 ![website](https://github.com/dochavez/DocusaurusV2/blob/main/website.jpg)
+###### Figura 5. Agregando Título, Sutitulos e ícono.
 
 
 ![Resultado](https://github.com/dochavez/DocusaurusV2/blob/main/Resultado.jpg)
+###### Figura 6. Muestra de cambios efectuados.
 
 *  ## Describiendo más elementos de nuestra pagina principal.🏠
 
@@ -65,6 +67,7 @@ El archivo **index.js** es la página de inicio de nuestro sitio web. En ella, s
 Tal como mencionamos anteriormente, **Infima** soporta las Hojas de Estilos (conocidas como CSS) para hacer algun cambio de colores a nuestro sitio web. Esta acción la podemos aplicar dentro de la ruta **src/css/custom.css**
 
 ![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
+###### Figura 7. Control de Colores de nuestra página principal.
 
 Es importante destacar que los valores de los colores se deben de agregar en formato hexadecimal. Si quieres conocer todas las posibles combinaciones de colores que puedes aplicar, puedes visitar el siguiente sitio web <a href="https://htmlcolorcodes.com/es/" target="_blank"> www.htmlcolorcodes.com/es/</a>.
 
@@ -73,16 +76,20 @@ Es importante destacar que los valores de los colores se deben de agregar en for
 La barra de navegación conocida como **navbar** permite agregar enlaces a otras páginas dentro del mismo sitio. Para esto, debemos proporcionar una ruta, aunque tambien puede ser una URL que nos lleve a un enlace externo. Para modificar la barra de navegacion, debemos de ubicarnos dentro del archivo denominado **docusaurus.config.js**
 
 ![Barra de Navegacion](https://github.com/dochavez/DocusaurusV2/blob/main/barra%20de%20navegacion.jpg)
+###### Figura 8. Identificación de la Barra de Navegación.
 
 ![navbar](https://github.com/dochavez/DocusaurusV2/blob/main/navbar.jpg)
+###### Figura 9. Despliegue de la Barra de Navegación.
 
 *  ## Pie de Página. 📃
 
 Al igual que la barra de navegación, el componente de pie de página puede ser modificado. El cual se encuentra dentro del archivo **docusaurus.config.js**. Se pueden agregar enlaces que nos lleven a otra información de interes dentro del sitio o bien pueden ser enlaces externos.
 
 ![Pie de Pagina](https://github.com/dochavez/DocusaurusV2/blob/main/pie%20de%20pagina.jpg)
+###### Figura 10. Identificación del Pie de Página
 
 ![Footer](https://github.com/dochavez/DocusaurusV2/blob/main/footer.jpg)
+###### Figura 11. Despliegue del Pie de Página
 
 Finalmente, podemos decir que también podemos agregar texto relacionado a los derechos de autor al pie de la página. Esto lo podemos encontrar en la sección 
 ```
@@ -107,8 +114,10 @@ Donde **id** es el nombre del documento que vamos a crear, **title** es el titul
 Si queremos agregar una sección para que nuestros documentos aparezcan organizados por categorias, debemos de agregar una sección especial para ellos. Por lo tanto, todos ellos se presentaran como una estructura organizada, permitiendo una fácil navegación entre ellos. Si queremos agregar nuevas secciones debemos de ubicarnos dentro del archivo **sidebar.js**
 
 ![sidebar](https://github.com/dochavez/DocusaurusV2/blob/main/sidebar.jpg)
+###### Figura 12. Identificación de la estructura de nuestros documentos.
 
 ![sidebar1](https://github.com/dochavez/DocusaurusV2/blob/main/sidebar1.jpg)
+###### Figura 13. Despliegue de la organización de nuestros documentos.
 
 *  ## Controlando las versiones de nuestro proyecto. 🧬
 
