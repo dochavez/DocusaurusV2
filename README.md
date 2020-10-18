@@ -18,12 +18,15 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 3.	Ejecuta la instrucción **npx @docusaurus/init@next init [name] "[template]"**, donde [name] deberá de ser reemplazado por cualquier nombre que queramos y [template] por classic para usar la pagina por default que se cargará en el sitio web. Docusaurus tiene la disponibilidad de usar varias plantillas.
 
 ![instalacion](https://github.com/dochavez/DocusaurusV2/blob/main/instalacion.jpg)
+###### Figura 1. Ejecución de comando.
 
 ![instalacion1](https://github.com/dochavez/DocusaurusV2/blob/main/instalacion1.jpg)
+###### Figura 2. Confirmación de la instalación de forma exitosa
 
 4.	Asumiendo que los pasos anteriores fueron ejecutados correctamente, deberas de ver una estructura siguiente:
 
 ![estructura de proyecto](https://github.com/dochavez/DocusaurusV2/blob/main/estructura%20del%20proyecto.jpg)
+###### Figura 3. Estructura del proyecto de Docusaurus.
 
 
 *  ## Desplegando la Aplicación. 📦
@@ -31,6 +34,7 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 5.	Para ejecutar Docusaurus utilizamos el siguiente comando desde la terminal: **npm start** y nuestro proyecto se desplegará en nuestro navegador web con la dirección **http://localhost:3000** 
 
 ![pagina principal](https://github.com/dochavez/DocusaurusV2/blob/main/Docusaurus%20pagina%20principal.jpg)
+###### Figura 3. Página principal.
 
 *  ## Analizando la estructura del proyecto instalado.📜
 
@@ -111,7 +115,7 @@ El control de versiones es importante para mantener al día nuestro trabajo. Eso
 ```"version": "docusaurus doc:version"```, después podemos ejecutar el siguiente comando ```npm run version <version>``` donde "<version>" es el nuevo número de versión que será agregado tanto para el control de nuestros documentos como la estructura de los mismos. Es decir, nuestro **sidebar**
 
 ```
-# Estructura del Directorio. Referencia: https://v2.docusaurus.io/docs/versioning
+# Estructura del Directorio aplicando control de versiones. Referencia: https://v2.docusaurus.io/docs/versioning
 
 website
 ├── sidebars.json        
