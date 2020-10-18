@@ -111,6 +111,8 @@ El control de versiones es importante para mantener al día nuestro trabajo. Eso
 ```"version": "docusaurus doc:version"```, después podemos ejecutar el siguiente comando ```npm run version <version>``` donde "<version>" es el nuevo número de versión que será agregado tanto para el control de nuestros documentos como la estructura de los mismos. Es decir, nuestro **sidebar**
 
 ```
+# Estructura del Directorio. Referencia: https://v2.docusaurus.io/docs/versioning
+
 website
 ├── sidebars.json        
 ├── docs                 
@@ -132,6 +134,7 @@ website
 │   └── version-1.0.0-sidebars.json
 ├── docusaurus.config.js
 └── package.json
+
 ```
 
 
