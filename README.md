@@ -51,6 +51,35 @@ Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidade
 
 ![Resultado](https://github.com/dochavez/DocusaurusV2/blob/main/Resultado.jpg)
 
+*  ## Describiendo más elementos de nuestra pagina principal.🏠
+
+El archivo **index.js** es la página de inicio de nuestro sitio web. En ella, se exportan los componentes de React que son presentados entre la barra de navegación y el pie de la página. Puedes crear tus propios componentes dentro del archivo **index.js**. Ya que la plantilla incluye Hojas de Estilos (CSS) creadas por el equipo de Docusaurus bajo una estructura que lleva por nombre <a href="https://facebookincubator.github.io/infima/" target="_blank">Infima</a>.
+
+*  ## Variedad de Colores.🌈
+
+Tal como mencionamos anteriormente, **Infima** soporta las Hojas de Estilos (conocidas como CSS) para hacer algun cambio de colores a nuestro sitio web. Esta acción la podemos aplicar dentro de la ruta **src/css/custom.css**
+
+![Colores css](https://github.com/dochavez/DocusaurusV2/blob/main/colores%20css.jpg)
+
+Es importante destacar que los valores de los colores se deben de agregar en formato hexadecimal. Si quieres conocer todas las posibles combinaciones de colores que puedes aplicar, puedes visitar el siguiente sitio web <a href="https://htmlcolorcodes.com/es/" target="_blank"> www.htmlcolorcodes.com/es/ </a>.
+
+*  ## Barra de Navegación. 🗄️
+
+La barra de navegación conocida como **navbar** permite agregar enlaces a otras páginas dentro del mismo sitio. Para esto, debemos proporcionar una ruta, aunque tambien puede ser una URL que nos lleve a un enlace externo. Para modificar la barra de navegacion, debemos de ubicarnos dentro del archivo denominado **docusaurus.config.js**
+
+![Barra de Navegacion](https://github.com/dochavez/DocusaurusV2/blob/main/barra%20de%20navegacion.jpg)
+
+![navbar](https://github.com/dochavez/DocusaurusV2/blob/main/navbar.jpg)
+
+*  ## Pie de Página. 📃
+
+Al igual que la barra de navegación, el componente de pie de página puede ser modificado. El cual se encuentra dentro del archivo **docusaurus.config.js**. Se pueden agregar enlaces que nos lleven a otra información de interes dentro del sitio o bien pueden ser enlaces externos.
+
+![Pie de Pagina](https://github.com/dochavez/DocusaurusV2/blob/main/pie%20de%20pagina.jpg)
+
+![Footer](https://github.com/dochavez/DocusaurusV2/blob/main/footer.jpg)
+
+
 
 
 
