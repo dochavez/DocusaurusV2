@@ -105,6 +105,35 @@ Si queremos agregar una sección para que nuestros documentos aparezcan organiza
 
 ![sidebar1](https://github.com/dochavez/DocusaurusV2/blob/main/sidebar1.jpg)
 
+*  ## Controlando las versiones de nuestro proyecto. 🧬
+
+El control de versiones es importante para mantener al día nuestro trabajo. Eso significa que muchos cambios o actualizaciones pueden ocurrir todos los dias. Por lo tanto es importante llevar un buen control de las versiones que se nos presentan. Es importante mantener presente que las actualizaciones en cuanto al control de versiones deben de estar en correspondencia con las necesidades de nuestros documentos. En otras palabras, solo si es necesario hacer un cambio. Para efectuar un control de versiones debemos de ubicarnos dentro del archivo **package.json** y agregar por ejemplo el siguiente script:
+```"version": "docusaurus doc:version"```, después podemos ejecutar el siguiente comando ```npm run version <version>``` donde "<version>" es el nuevo número de versión que será agregado tanto para el control de nuestros documentos como la estructura de los mismos. Es decir, nuestro **sidebar**
+
+```
+website
+├── sidebars.json        
+├── docs                 
+│   ├── foo
+│   │   └── bar.md       
+│   └── hello.md         
+├── versions.json        
+├── versioned_docs
+│   ├── version-1.1.0
+│   │   ├── foo
+│   │   │   └── bar.md   
+│   │   └── hello.md
+│   └── version-1.0.0
+│       ├── foo
+│       │   └── bar.md   
+│       └── hello.md
+├── versioned_sidebars
+│   ├── version-1.1.0-sidebars.json
+│   └── version-1.0.0-sidebars.json
+├── docusaurus.config.js
+└── package.json
+```
+
 
 
 
