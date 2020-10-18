@@ -34,7 +34,7 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 5.	Para ejecutar Docusaurus utilizamos el siguiente comando desde la terminal: **npm start** y nuestro proyecto se desplegará en nuestro navegador web con la dirección **http://localhost:3000** 
 
 ![pagina principal](https://github.com/dochavez/DocusaurusV2/blob/main/Docusaurus%20pagina%20principal.jpg)
-###### Figura 3. Página principal.
+<center>###### Figura 4. Página principal.</center>
 
 *  ## Analizando la estructura del proyecto instalado.📜
 
@@ -52,6 +52,7 @@ Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidade
 
 
 ![website](https://github.com/dochavez/DocusaurusV2/blob/main/website.jpg)
+
 
 ![Resultado](https://github.com/dochavez/DocusaurusV2/blob/main/Resultado.jpg)
 
