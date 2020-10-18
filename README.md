@@ -44,18 +44,14 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 
 *  ## Personaliza tu Sitio.🛠️
 
-Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidades. Es por eso que en el archivo denominado **docusaurus.config.js** puedes modificar las directivas **title** y **tagline** y **favicon**.
+Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidades. Es por eso que en el archivo denominado **docusaurus.config.js** puedes modificar las directivas **title** y **tagline** poniendo cualquier nombre que quieras. Para el caso del**favicon** debes de agregar una imagen con extensión **.ico**. Un buen recursos que puedes usar para crear este tipo de archivos es accediendo al sitio web <a href="https://favicon.io/favicon-converter/" target="_blank"> favicon.io </a>. Una vez que tengas el nuevo archivo, deberas de copiarlo y reemplazarlo adentro de la carpeta **static\img**. Ahora puede probar los cambios iniciando el proyecto con el comando **npm run start** o puedes utilizar **yarn run start** desde la terminal. Recuerda estar adentro de la carpeta del directorio que creastes en el paso **numero 1** de este tutorial. Dirigite a **http://localhost:3000** para ver los cambios efectuados.
 
-```
-module.exports = {
-  title: 'Fábrica de Chocolates',
-  tagline: 'Los expertos en el sabor y variedad',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  
-```
+
+![website](https://github.com/dochavez/DocusaurusV2/blob/main/website.jpg)
+
+![Resultado](https://github.com/dochavez/DocusaurusV2/blob/main/Resultado.jpg)
+
+
 
 
 
