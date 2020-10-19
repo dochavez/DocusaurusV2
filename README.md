@@ -150,7 +150,18 @@ website
 └── package.json
 
 ```
+*  ## Creando Blogs con Docusaurus.📰
 
+Si todo lo anterior te parecio muy interesante, aun hay algo más que debes de conocer. Docusaurus te permite crear una sección de Blog para tus contenidos. Para crear un **blog** lo que necesitas hacer es crear un archivo con extensión **.md** y ubicarlo dentro la carpeta llamada  **blog**. Es importante mencionar que el formato para establecer el nombre del archivo debe de ser **{date}-{name}.md**. 
+
+![creacion de blog](https://github.com/dochavez/DocusaurusV2/blob/main/creacion%20de%20blogs.jpg)
+###### Figura 14. Creando un Blog con Docusaurus.
+
+
+![Visualizando](https://github.com/dochavez/DocusaurusV2/blob/main/Visualizando%20nuestro%20Blog.jpg)
+###### Figura 15. Visualizando nuestro Blog
+
+*  ## Migrando de Local a En Línea. 🖧
 
 
 
