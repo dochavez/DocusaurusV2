@@ -163,6 +163,16 @@ Si todo lo anterior te parecio muy interesante, aun hay algo más que debes de c
 
 *  ## Migrando de Local a En Línea. 🖧
 
+Antes de pasar a ubicar todo tu proyecto a un repositorio de **github** para que muchos usuarios accedan desde cualquier parte del mundo, primero debes de construir los archivos estáticos de forma local en la computadora donde estas trabajando. Para hacer eso debes de ejecutar el siguiente comando desde consola **npm run build** o **yarn run build**. Lo que hace cualquier de los comandos anteriores es crear una carpeta con el nombre "**build**" dentro de tu carpeta donde tienes todo tu proyecto. Luego de eso, debes de ejecutar en la misma terminal la siguiente instrucción:
+
+```GIT_USER=<GITHUB_USERNAME> yarn deploy```
+
+donde, "**GITHUB_USERNAME**" es el nombre de usario que usas directamente en Github. Por lo tanto, deberas de reemplazarlo. En caso que estes usando la consola de windows (cmd) puedes ejecutar la siguiente instrucción:
+
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
+
+Y si estas usando el **powershell** puedes ejecutar la siguiente instrucción:
+```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy'```
 
 
 
