@@ -216,7 +216,7 @@ Muchas gracias por leer esta guia y espero que te sea de mucha utilidad para tus
 
 *  ## Licencia.📜
 
-Este repositorio y todo su contenido esta bajo la licencia del MIT. Puedes acceder a leer la misma en este <a href=" https://github.com/dochavez/DocusaurusV2/blob/main/LICENSE">enlace</a>
+Este repositorio y todo su contenido esta bajo la licencia del MIT. Puedes acceder a leer la misma en este <a href="https://github.com/dochavez/DocusaurusV2/blob/main/LICENSE">enlace</a>
 
 
 
