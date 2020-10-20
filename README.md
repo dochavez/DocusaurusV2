@@ -31,7 +31,7 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 
 *  ## Desplegando la Aplicación. 📦
 
-5.	Para ejecutar Docusaurus utilizamos el siguiente comando desde la terminal: **npm start** y nuestro proyecto se desplegará en nuestro navegador web con la dirección **http://localhost:3000** 
+5.	Para ejecutar Docusaurus utilizamos el siguiente comando desde la terminal: **npm run start** y nuestro proyecto se desplegará en nuestro navegador web con la dirección **http://localhost:3000**. Si lo deseas, también puedes ejecutar este otro comando desde la terminal: **yarn run start**. En cualquier de ambos casos, los dos comando realizando la misma operación de desplegar nuestro sitio web en el navegador que tengamos por defecto. Aunque si lo deseas también puedes utilizar cualquier otro navegador.
 
 ![pagina principal](https://github.com/dochavez/DocusaurusV2/blob/main/Docusaurus%20pagina%20principal.jpg)
 ###### Figura 4. Página principal.
