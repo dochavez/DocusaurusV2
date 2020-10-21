@@ -2,6 +2,7 @@
 ## Instalación y Configuración para **Principiantes** 🚀 <br>
 Elaborado por: **Danny Chávez** <br>
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/maktub82.svg?style=social&label=Follow)](https://twitter.com/maktub82)
 
 Documentar es una forma de dejar en evidencia lo que se hace para que otras personas puedan aprender, modificar, crear, diseñar y compartir. Aunque es importante mencionar que documentar puede ser una tarea complicada. Lo cual puede desencadenar que un proyecto alcance su máximo potencial. Pero gracias a Docusaurus nuestra tarea puede verse muy simplificada.
 Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nuestra documentación. Gracias a la implementación de React.js, podemos contar con soporte para blogs, paginas con diseños personalizados con estilos muy elegantes y dinámicos. 
@@ -121,7 +122,7 @@ Si queremos agregar una sección para que nuestros documentos aparezcan organiza
 
 *  ## Controlando las versiones de nuestro proyecto. 🧬
 
-El control de versiones es importante para mantener al día nuestro trabajo. Eso significa que muchos cambios o actualizaciones pueden ocurrir todos los dias. Por lo tanto es importante llevar un buen control de las versiones que se nos presentan. Es importante mantener presente que las actualizaciones en cuanto al control de versiones deben de estar en correspondencia con las necesidades de nuestros documentos. En otras palabras, solo si es necesario hacer un cambio. Para efectuar un control de versiones debemos de ubicarnos dentro del archivo **package.json** y agregar por ejemplo el siguiente script:
+El control de versiones es importante para mantener al día nuestro trabajo. Eso significa que muchos cambios o actualizaciones pueden ocurrir todos los días. Por lo tanto es importante llevar un buen control de las versiones que se nos presentan o en las cuales estemos trabajando. Es importante mantener presente que las actualizaciones en cuanto al control de versiones deben de estar en correspondencia con las necesidades de nuestros documentos o nuestro proyecto en general. En otras palabras, solo si es necesario hacer un cambio, podemos efectuar una serie de operaciones para que todo lo que tenemos creado en nuestro proyecto y documentos se pongan al día como la última versión realizada. Para efectuar un control de versiones debemos de ubicarnos dentro del archivo **package.json** y agregar por ejemplo el siguiente script:
 ```"version": "docusaurus doc:version"```, después podemos ejecutar el siguiente comando ```npm run version <version>``` donde "<version>" es el nuevo número de versión que será agregado tanto para el control de nuestros documentos como la estructura de los mismos. Es decir, nuestro **sidebar**
 
 ```
