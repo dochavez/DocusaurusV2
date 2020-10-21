@@ -48,11 +48,11 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 
 *  ## Personaliza tu Sitio.🛠️
 
-Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidades. Es por eso que en el archivo denominado **docusaurus.config.js** puedes modificar las directivas **title** y **tagline** poniendo cualquier nombre que quieras. Para el caso del**favicon** debes de agregar una imagen con extensión **.ico**. Un buen recursos que puedes usar para crear este tipo de archivos es accediendo al sitio web <a href="https://favicon.io/favicon-converter/" target="_blank"> favicon.io </a>. Una vez que tengas el nuevo archivo, deberas de copiarlo y reemplazarlo adentro de la carpeta **static\img**. Ahora puede probar los cambios iniciando el proyecto con el comando **npm run start** o puedes utilizar **yarn run start** desde la terminal. Recuerda estar adentro de la carpeta del directorio que creastes en el paso **numero 1** de este tutorial. Dirigite a **http://localhost:3000** para ver los cambios efectuados.
+Docusaurus nos permite una gran flexibilidad y adaptación a nuestras necesidades. Es por eso que en el archivo denominado **docusaurus.config.js** puedes modificar las directivas **title** y **tagline** poniendo cualquier nombre que quieras. Para el caso del**favicon** debes de agregar una imagen con extensión **.ico**. Un buen recursos que puedes usar para crear este tipo de archivos es accediendo al sitio web <a href="https://favicon.io/favicon-converter/" target="_blank">favicon.io</a>. Una vez que tengas el nuevo archivo, deberas de copiarlo y reemplazarlo adentro de la carpeta **static\img**. Ahora puede probar los cambios iniciando el proyecto con el comando **npm run start** o puedes utilizar **yarn run start** desde la terminal. Recuerda estar adentro de la carpeta del directorio que creastes en el paso **numero 1** de este tutorial. Dirigite a **http://localhost:3000** para ver los cambios efectuados.
 
 
 ![website](https://github.com/dochavez/DocusaurusV2/blob/main/website.jpg)
-###### Figura 5. Agregando Título, Sutitulos e ícono.
+###### Figura 5. Agregando Título, Subtítulos e ícono.
 
 
 ![Resultado](https://github.com/dochavez/DocusaurusV2/blob/main/Resultado.jpg)
@@ -73,7 +73,7 @@ Es importante destacar que los valores de los colores se deben de agregar en for
 
 *  ## Barra de Navegación. 🗄️
 
-La barra de navegación conocida como **navbar** permite agregar enlaces a otras páginas dentro del mismo sitio. Para esto, debemos proporcionar una ruta, aunque tambien puede ser una URL que nos lleve a un enlace externo. Para modificar la barra de navegacion, debemos de ubicarnos dentro del archivo denominado **docusaurus.config.js**
+La barra de navegación conocida como **navbar** permite agregar enlaces a otras páginas dentro del mismo sitio. Para esto, debemos proporcionar una ruta, aunque también puede ser una URL que nos lleve a un enlace externo. Para modificar la barra de navegación, debemos de ubicarnos dentro del archivo denominado **docusaurus.config.js**
 
 ![Barra de Navegacion](https://github.com/dochavez/DocusaurusV2/blob/main/barra%20de%20navegacion.jpg)
 ###### Figura 8. Identificación de la Barra de Navegación.
