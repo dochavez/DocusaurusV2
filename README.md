@@ -19,7 +19,7 @@ Con Docusaurus nos ayuda a crear y mantener sitios web donde podemos mostrar nue
 3.	Ejecuta la instrucción **npx @docusaurus/init@next init [name] "[template]"**, donde [name] deberá de ser reemplazado por cualquier nombre que queramos y [template] por classic para usar la pagina por default que se cargará en el sitio web. Docusaurus tiene la disponibilidad de usar varias plantillas.
 
 ![instalacion](https://github.com/dochavez/DocusaurusV2/blob/main/instalacion.jpg)
-###### Figura 1. Ejecución de comando.
+##### Figura 1. Ejecución de comando.
 
 ![instalacion1](https://github.com/dochavez/DocusaurusV2/blob/main/instalacion1.jpg)
 ###### Figura 2. Confirmación de la instalación de forma exitosa
