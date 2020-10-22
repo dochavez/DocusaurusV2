@@ -181,7 +181,7 @@ Y si estas usando el **windows cmd** puedes ejecutar la siguiente instrucción:
 ![githubpages](https://github.com/dochavez/DocusaurusV2/blob/main/githubpages.jpg)
 ###### Figura 18. Pasando nuestros archivos al repositorio de Github
 
-![githubpages_final] (https://github.com/dochavez/DocusaurusV2/blob/main/githubpages_confirmacion.jpg)
+![githubpages_final](https://github.com/dochavez/DocusaurusV2/blob/main/githubpages_confirmacion.jpg)
 ###### Figura 19. Confirmación exitosa de la ejecución.
 
 **NOTA IMPORTANTE ⚠️**: antes de pasar tus archivos de forma local a tu repositorio en Github debes de agregar cierta información en el archivo **docusaurus.config.js**. en los parámetros relacionados a **organizationName**, **projectName**, **url**, **baseUrl**
