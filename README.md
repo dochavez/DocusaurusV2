@@ -164,26 +164,6 @@ Si todo lo anterior te parecio muy interesante, aun hay algo más que debes de c
 
 *  ## Migrando de Local a En Línea. 🖧
 
-Antes de pasar a ubicar todo tu proyecto a un repositorio de **github** para que muchos usuarios accedan desde cualquier parte del mundo, primero debes de construir los archivos estáticos de forma local en la computadora donde estas trabajando. Para hacer eso debes de ejecutar el siguiente comando desde consola **npm run build** o **yarn run build**. Lo que hace cualquier de los comandos anteriores es crear una carpeta con el nombre "**build**" dentro de tu carpeta donde tienes todo tu proyecto. Luego de eso, debes de ejecutar en la misma terminal la siguiente instrucción:
-
-```GIT_USER=<GITHUB_USERNAME> yarn deploy```
-
-donde, "**GITHUB_USERNAME**" es el nombre de usario que usas directamente en Github. Por lo tanto, deberas de reemplazarlo. En caso que estes usando la consola de windows (cmd) puedes ejecutar la siguiente instrucción:
-
-```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
-
-Y si estas usando el **powershell** puedes ejecutar la siguiente instrucción:
-```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy'```
-
-Y si estas usando el **windows cmd** puedes ejecutar la siguiente instrucción:
-```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
-
-![githubpages](https://github.com/dochavez/DocusaurusV2/blob/main/githubpages.jpg)
-###### Figura 18. Pasando nuestros archivos al repositorio de Github
-
-![githubpages_final](https://github.com/dochavez/DocusaurusV2/blob/main/githubpages_confirmacion.jpg)
-###### Figura 19. Confirmación exitosa de la ejecución.
-
 **NOTA IMPORTANTE ⚠️**: antes de pasar tus archivos de forma local a tu repositorio en Github debes de agregar cierta información en el archivo **docusaurus.config.js**. en los parámetros relacionados a **organizationName**, **projectName**, **url**, **baseUrl**
 ```
 module.exports = {
@@ -202,6 +182,28 @@ Donde:<br>
 **baseUrl**: URL base para tu proyecto. Para proyectos alojados en páginas de GitHub, sigue el formato "**/projectName/**".<br>
 
 ![parametros_finales](https://github.com/dochavez/DocusaurusV2/blob/main/parametros_finales.jpg)
+###### Figura 16. Ajustando parámetros finales para nuestro sitio.
+
+Antes de pasar a ubicar todo tu proyecto a un repositorio de **github** para que muchos usuarios accedan desde cualquier parte del mundo, primero debes de construir los archivos estáticos de forma local en la computadora donde estas trabajando. Para hacer eso debes de ejecutar el siguiente comando desde consola **npm run build** o **yarn run build**. Lo que hace cualquier de los comandos anteriores es crear una carpeta con el nombre "**build**" dentro de tu carpeta donde tienes todo tu proyecto. Luego de eso, debes de ejecutar en la misma terminal la siguiente instrucción:
+
+```GIT_USER=<GITHUB_USERNAME> yarn deploy```
+
+donde, "**GITHUB_USERNAME**" es el nombre de usario que usas directamente en Github. Por lo tanto, deberas de reemplazarlo. En caso que estes usando la consola de windows (cmd) puedes ejecutar la siguiente instrucción:
+
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
+
+Y si estas usando el **powershell** puedes ejecutar la siguiente instrucción:
+```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy'```
+
+Y si estas usando el **windows cmd** puedes ejecutar la siguiente instrucción:
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
+
+![githubpages](https://github.com/dochavez/DocusaurusV2/blob/main/githubpages.jpg)
+###### Figura 17. Pasando nuestros archivos al repositorio de Github
+
+![githubpages_final](https://github.com/dochavez/DocusaurusV2/blob/main/githubpages_confirmacion.jpg)
+###### Figura 18. Confirmación exitosa de la ejecución.
+
 
 *  ## Conclusiones.🔗
 
