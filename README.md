@@ -175,8 +175,8 @@ donde, "**GITHUB_USERNAME**" es el nombre de usario que usas directamente en Git
 Y si estas usando el **powershell** puedes ejecutar la siguiente instrucción:
 ```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy'```
 
-Y si estas usando el **powershell** puedes ejecutar la siguiente instrucción:
-```cmd /C 'set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy'```
+Y si estas usando el **windows cmd** puedes ejecutar la siguiente instrucción:
+```cmd /C "set "GIT_USER=<GITHUB_USERNAME>" && yarn deploy"```
 
 ![githubpages](https://github.com/dochavez/DocusaurusV2/blob/main/githubpages.jpg)
 ###### Figura 18. Pasando nuestros archivos al repositorio de Github
