@@ -196,10 +196,10 @@ module.exports = {
 };
 ```
 Donde:
-**organizationName**: El usuario u organización de GitHub que posee el repositorio.
-**projectName**: El nombre del repositorio de GitHub.
-**url**: URL de la página de usuario u organización de su página de GitHub. Generalmente es: "**https://_username_.github.io.**"
-**baseUrl**: URL base para tu proyecto. Para proyectos alojados en páginas de GitHub, sigue el formato "**/ projectName/**".
+**organizationName**: El usuario u organización de GitHub que posee el repositorio.<br>
+**projectName**: El nombre del repositorio de GitHub.<br>
+**url**: URL de la página de usuario u organización de su página de GitHub. Generalmente es: "**https://_username_.github.io.**"<br>
+**baseUrl**: URL base para tu proyecto. Para proyectos alojados en páginas de GitHub, sigue el formato "**/ projectName/**".<br>
 
 ![parametros_finales](https://github.com/dochavez/DocusaurusV2/blob/main/parametros_finales.jpg)
 
